@@ -1,0 +1,595 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1688015558943114, "dur": 2491585, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688015558943746, "dur": 174949, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688015559118699, "dur": 2302701, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688015561421403, "dur": 13295, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688015561435765, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1688015559390595, "dur":58266, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015559448898, "dur":8437, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1688015559457459, "dur":111, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1688015559457571, "dur":747, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1688015559458447, "dur":4186, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015559462634, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387103, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387126, "dur":43, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387170, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387185, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387207, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387212, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387225, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387229, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387241, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387302, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561387369, "dur":3842, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1688015559460417, "dur":2287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559462704, "dur":22898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559485612, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1688015559485777, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559485980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559491038, "dur":7249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1688015559498528, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688015559498640, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559498766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559499657, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688015559501793, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1688015559501909, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559502007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559502168, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1688015559504233, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688015559504359, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559504458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559504479, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688015559509876, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688015559509994, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559510212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559511262, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1688015559513111, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688015559513181, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559513254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559513272, "dur":16509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1688015559529874, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1688015559529975, "dur":20024, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559550020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559550040, "dur":23403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1688015559573539, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559573660, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559574015, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559574898, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559577742, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559577822, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559577903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559577979, "dur":41316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559619594, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559619705, "dur":419, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559620134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559620326, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559622473, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559622549, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559622719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559622732, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559624232, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559624320, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559624393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559624404, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559626304, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559626379, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559626511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559626527, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559628359, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559628445, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559628519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559628532, "dur":45900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559674508, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559674590, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559674667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559674679, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559676810, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559676887, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559676959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559676971, "dur":3382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559680431, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559680505, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559680578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559680625, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559682799, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559682879, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559682962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559682979, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559684993, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559685098, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559685174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559685190, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559687295, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559687394, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559687835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559687850, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559690899, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559690990, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559691336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559691353, "dur":55135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559746560, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559746694, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559746824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559746850, "dur":33138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559780106, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559780346, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559780431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559780446, "dur":2471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559782998, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559783091, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559783171, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015559783183, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559789334, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015559789407, "dur":229372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560018808, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560018845, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560020930, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560021010, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560021128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560021143, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560034052, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560034140, "dur":31436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560065588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560065604, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560068740, "dur":449943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560518685, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560518831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015560518852, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015560521058, "dur":534506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015561055565, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561055744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561055760, "dur":47421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015561103263, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015561103476, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561103573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561103862, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Plugins/x86_64/UltraleapOpenXRUnity.dll" }}
+,{ "pid":12345, "tid":1, "ts":1688015561106161, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688015561106262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561106347, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1688015561108078, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688015561108163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1688015561108174, "dur":70399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1688015561178649, "dur":208240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559460264, "dur":2397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559462667, "dur":22923, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559485612, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688015559485619, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559485751, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688015559485756, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559485877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559487693, "dur":5550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1688015559493251, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688015559493359, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559493759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559493955, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1688015559496554, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688015559496657, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559496750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559496770, "dur":19219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1688015559516086, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559516185, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559516369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559517438, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559519566, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559519661, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559519736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559519870, "dur":64359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559584320, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559584425, "dur":34110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559618555, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559618583, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559621491, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559621573, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559621645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559621659, "dur":52563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559674306, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559674381, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559674480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559674497, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559676474, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559676555, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559676636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559676651, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559679124, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559679216, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559679315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559679333, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559681085, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559681162, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559681369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559681384, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559683110, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559683196, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559683268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559683280, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559685313, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559685433, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559685562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559685574, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559688231, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559688306, "dur":565, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559688883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559688897, "dur":58060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559747052, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559747146, "dur":31198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559778422, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559778443, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559782028, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559782107, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559782185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559782196, "dur":6268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559788561, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015559788645, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559788883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015559788899, "dur":230519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560019496, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560019575, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560019648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560019661, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560021225, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560021307, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560021383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560021396, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560023618, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560023701, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560023777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560023793, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560025853, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560025930, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560026009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560026020, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560027845, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560027921, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560028016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560028028, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560031443, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560031560, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560031697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560031717, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560033295, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560033372, "dur":28819, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560062202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560062262, "dur":17757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560080105, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560080192, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560080280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560080298, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560081845, "dur":170918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560252764, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560252892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015560252911, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015560254617, "dur":821242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015561075860, "dur":25888, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015561101767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015561101787, "dur":31245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1688015561133139, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688015561133244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015561133260, "dur":8137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1688015561141467, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1688015561141581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1688015561141592, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1688015561143270, "dur":243792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559460375, "dur":2306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559462682, "dur":23153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559485836, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015559485981, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559486068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559493850, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015559496406, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015559496524, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559496626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559496650, "dur":14216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015559510943, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1688015559511022, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559511169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559511351, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1688015559513250, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688015559513333, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559513506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559513521, "dur":16767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1688015559530365, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688015559531419, "dur":19017, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559550450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559550464, "dur":23430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano.exe" }}
+,{ "pid":12345, "tid":3, "ts":1688015559574102, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559574231, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559574329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559574932, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559577652, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559577744, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559577831, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559577965, "dur":41787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559619830, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559619946, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559620195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559620209, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559621958, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559622046, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559622126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559622138, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559623901, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559623989, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559624067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559624082, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559626303, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559626377, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559626515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559626528, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559628353, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559628428, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559628506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015559628522, "dur":48527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559677518, "dur":222810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015559900329, "dur":119570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560019920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560019933, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560023716, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560023786, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560023858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560023871, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560025397, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560025473, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560025550, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560025583, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560027208, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560027286, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560027400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560027414, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560030255, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560030330, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560030410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560030426, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560032442, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560032521, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560032600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560032612, "dur":30712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560063407, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560063495, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560063577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560063592, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560065169, "dur":228726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560293896, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560294059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560294078, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560295763, "dur":287135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560582899, "dur":39930, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560622846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560622865, "dur":22141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.Hands.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560645081, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560645155, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560645233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560645250, "dur":7383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560652708, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560652801, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560652889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560652943, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560655751, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560655833, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560655920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015560655937, "dur":201777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015560857798, "dur":223647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015561081446, "dur":20579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561102035, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561102276, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1688015561106827, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688015561107811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561107829, "dur":9014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1688015561116972, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688015561117086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561117111, "dur":5653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688015561122914, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1688015561123340, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561123469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561123488, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1688015561125868, "dur":2646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1688015561128516, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561128706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561128726, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1688015561132703, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688015561132811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561132847, "dur":4812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1688015561137763, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688015561137859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561137878, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1688015561140909, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688015561140994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561141010, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1688015561142811, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015561143026, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561143109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1688015561143125, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1688015561144617, "dur":242404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559460531, "dur":2193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559462724, "dur":22879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559485612, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688015559485767, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559485916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559491666, "dur":8196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1688015559499975, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559500092, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559500192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559502640, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559504994, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688015559505102, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559505198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559505219, "dur":5027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1688015559510329, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559510432, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559510835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559511280, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559513262, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559513338, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559513565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559513579, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1688015559514988, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1688015559515090, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559515164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559515182, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1688015559517740, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559517836, "dur":2085, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559519933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559520482, "dur":44884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559565476, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1688015559565569, "dur":1605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559567195, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559569164, "dur":105319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1688015559674574, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559674643, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559674713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559674724, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559676668, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559676742, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559676815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559676827, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559680029, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559680295, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559680373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559680394, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559683678, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559683759, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559683855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559683906, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559686436, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559686515, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559686914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559686931, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559689293, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559689380, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559689492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559689505, "dur":56610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559746200, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559746283, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559746373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559746391, "dur":32692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559779167, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559779256, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559779335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559779350, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559781598, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559781676, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559781753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559781776, "dur":7313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559789164, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015559789243, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559789317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015559789329, "dur":234624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560024029, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560024134, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560024260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560024274, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560025897, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560025980, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560026054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560026066, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560027797, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560027868, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560028273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560028285, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560032452, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560032557, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560032632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560032645, "dur":28975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560061707, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560061790, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560061876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560061894, "dur":1830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560063797, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560063868, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560063958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560063970, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560065365, "dur":208882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560274248, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560274463, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560274492, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560277952, "dur":241696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.InteractionEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560519649, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560519744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560519759, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Ultraleap.Tracking.InteractionEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560522048, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560522128, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560522222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560522241, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560523944, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560524025, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560524111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560524127, "dur":90732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560614990, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560615082, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560615206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560615226, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560617613, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560617691, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560617773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560617788, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560620646, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560620768, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560620880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560620911, "dur":7910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560628900, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560628978, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560629085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560629103, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560632559, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560632641, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560632726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560632744, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560635890, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560636117, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560636244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560636261, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560638199, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560638273, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560638354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560638370, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560639728, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560639801, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560639879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560639892, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560641311, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560641381, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560641495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560641510, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560643141, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560643213, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560643285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560643298, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560645118, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560645190, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560645264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560645276, "dur":7815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560653163, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560653234, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560653344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560653355, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560655983, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560656084, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560656164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560656177, "dur":100793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560757413, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560757504, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560757592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560757609, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560763107, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560763191, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560763277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560763294, "dur":7939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560771344, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560771421, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560771521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015560771539, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015560773438, "dur":246031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/LeapMotion.LeapCSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015561019470, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015561019623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015561019642, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Managed/LeapMotion.LeapCSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015561021655, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Plugins/x86_64/LeapC.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015561021743, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015561021849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1688015561102053, "dur":284484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/CubeMora/Desktop/Skool/8vo/chochis/Leap Piano - Mora, Robles, Ramirez/Leap Piano_Data/Plugins/x86_64/LeapC.dll" }}
+,{ "pid":12345, "tid":4, "ts":1688015561386653, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1688015561386658, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1688015561394714, "dur":7055, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1688015561435958, "dur": 39552, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1688015561435742, "dur": 39836, "ph": "X", "name": "Write chrome-trace events", "args": {} },
